@@ -1,0 +1,96 @@
+/* Yleiset tyylit */
+body {
+    font-family: 'Arial', sans-serif; /* Vaihda halutessasi esim. 'Roboto' tai 'Open Sans' */
+    margin: 0;
+    padding: 0;
+    background-color: #ebebf3;
+    color: #333;
+    line-height: 1.6;
+}
+p {
+
+    background-color: #8b8bb3;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Otsikko ja header */
+header {
+    background-color: #5360b4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    border: 2px solid white; /* Added border */
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Pääsisältö */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main h2 {
+    border: 2px solid #5360b4; /* Added border */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main h3 {
+    border: 1px dashed #333; /* Added border */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Kuvien tyylit */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #666;
+}
+
+/* Progress-palkki */
+progress {
+    width: 100%;
+    height: 20px;
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #5360b4;
+    border-radius: 10px;
+}
